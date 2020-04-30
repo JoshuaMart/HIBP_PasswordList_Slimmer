@@ -3,6 +3,10 @@
 
 Tool in Go designed to reduce the size of Have I Been Pwned password lists and speed up searching.
 
+Strongly inspired by [pwnedpw_passfilt](https://github.com/darrellenns/pwnedpw_passfilt) but rewritten in Go.
+
+On my side (Intel I7 8565U) the conversion takes 54 minutes for the full NTLM hash list and the size increases from about 19GB to about 10GB.
+
 ## Usage
 Clone the repo or download one of the binaries in the releases.
 

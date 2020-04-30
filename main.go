@@ -38,7 +38,7 @@ func main() {
 
 	for scanner.Scan() {
 		hash := scanner.Text()[:hashLength]
-		occurence := scanner.Text()[33:]
+		occurence := scanner.Text()[hashLength+1:]
 
 		hash_byte, _ := hex.DecodeString(hash)
 		output.Write(hash_byte)
